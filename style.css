@@ -26,6 +26,7 @@ body {
 
 .filter-white{
     filter: invert(92%) sepia(100%) saturate(0%) hue-rotate(202deg) brightness(106%) contrast(106%);
+    cursor: pointer;
 }
 
 img {
@@ -87,6 +88,16 @@ img {
 .navbar a {
     font-weight: 500;
     letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.navbar a,
+.navbar li img,
+.account h2,
+.navbar-title h1 {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 
 .navbar a:hover {
@@ -181,6 +192,7 @@ img {
 
 .name {
     margin-left: 20px;
+    letter-spacing: 2px;
 }
 
 .header-buttons {
@@ -202,6 +214,7 @@ img {
     font-weight: 400;
     border-radius: 15px;
     letter-spacing: 3px;
+    cursor: pointer;
 }
 
 .header-buttons button:hover {
@@ -283,6 +296,10 @@ img {
     overflow-y: auto;
 }
 
+.project-card img {
+    cursor: pointer;
+}
+
 /*DASHBOARD RIGHT SIDE */
 
 .right-side-container {
@@ -346,6 +363,7 @@ img {
     justify-content: flex-start;
     gap: 10px;
     align-items: center;
+    cursor: pointer;
 }
 
 .trend:hover{
